@@ -7,9 +7,9 @@ public class Bill3 {
 	    	String name2 = args[1]; //Second name
 	    	String name3 = args[2]; //Third name
 
-		int bill = Integer.parseInt(args[3]);
+		Double bill = Double.parseDouble(args[3]);
 
-		double payment = (bill / 3) + 1; 
+		double payment = Math.round((bill / 3) + 0.49);
 
 		System.out.println("Dear " + name1 + ", " + name2 + ", " + name3 + ": pay " + payment + " Shekels each.");	
 	}
