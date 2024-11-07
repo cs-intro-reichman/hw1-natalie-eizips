@@ -9,8 +9,8 @@ public class Bill3 {
 
 		int bill = Integer.parseInt(args[3]);
 
-		double payment = (bill / 3); 
+		double payment = (bill / 3) + 1; 
 
-		System.out.println("Dear " + name1 + ", " + name2 + ", " + name3 + ": pay " + payment + " shekels each.");	
+		System.out.println("Dear " + name1 + ", " + name2 + ", " + name3 + ": pay " + payment + " Shekels each.");	
 	}
 }
