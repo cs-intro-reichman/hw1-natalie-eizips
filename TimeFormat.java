@@ -39,6 +39,5 @@ public class TimeFormat {
 		else {
 			System.out.println("PM");
 		}
-
 	}
 }
